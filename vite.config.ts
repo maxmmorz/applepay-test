@@ -8,7 +8,9 @@ export default defineConfig({
   server: {
     port: 8080, // Set your desired port here
   },
-
+  preview: {
+    port: 8080, // Port for the 'vite preview' command
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
